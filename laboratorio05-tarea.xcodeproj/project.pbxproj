@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9182FCD5254F76C700EFA757 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9182FCD4254F76C600EFA757 /* AppDelegate.swift */; };
+		9182FCD7254F76C700EFA757 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9182FCD6254F76C700EFA757 /* SceneDelegate.swift */; };
+		9182FCD9254F76C700EFA757 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9182FCD8254F76C700EFA757 /* ViewController.swift */; };
+		9182FCDC254F76C700EFA757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9182FCDA254F76C700EFA757 /* Main.storyboard */; };
+		9182FCDF254F76C700EFA757 /* laboratorio05_tarea.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9182FCDD254F76C700EFA757 /* laboratorio05_tarea.xcdatamodeld */; };
+		9182FCE1254F76C900EFA757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9182FCE0254F76C900EFA757 /* Assets.xcassets */; };
+		9182FCE4254F76C900EFA757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9182FCE2254F76C900EFA757 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9182FCD1254F76C600EFA757 /* laboratorio05-tarea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "laboratorio05-tarea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9182FCD4254F76C600EFA757 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9182FCD6254F76C700EFA757 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9182FCD8254F76C700EFA757 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9182FCDB254F76C700EFA757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9182FCDE254F76C700EFA757 /* laboratorio05_tarea.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = laboratorio05_tarea.xcdatamodel; sourceTree = "<group>"; };
+		9182FCE0254F76C900EFA757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9182FCE3254F76C900EFA757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9182FCE5254F76C900EFA757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9182FCCE254F76C600EFA757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9182FCC8254F76C600EFA757 = {
+			isa = PBXGroup;
+			children = (
+				9182FCD3254F76C600EFA757 /* laboratorio05-tarea */,
+				9182FCD2254F76C600EFA757 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9182FCD2254F76C600EFA757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9182FCD1254F76C600EFA757 /* laboratorio05-tarea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9182FCD3254F76C600EFA757 /* laboratorio05-tarea */ = {
+			isa = PBXGroup;
+			children = (
+				9182FCD4254F76C600EFA757 /* AppDelegate.swift */,
+				9182FCD6254F76C700EFA757 /* SceneDelegate.swift */,
+				9182FCD8254F76C700EFA757 /* ViewController.swift */,
+				9182FCDA254F76C700EFA757 /* Main.storyboard */,
+				9182FCE0254F76C900EFA757 /* Assets.xcassets */,
+				9182FCE2254F76C900EFA757 /* LaunchScreen.storyboard */,
+				9182FCE5254F76C900EFA757 /* Info.plist */,
+				9182FCDD254F76C700EFA757 /* laboratorio05_tarea.xcdatamodeld */,
+			);
+			path = "laboratorio05-tarea";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9182FCD0254F76C600EFA757 /* laboratorio05-tarea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9182FCE8254F76C900EFA757 /* Build configuration list for PBXNativeTarget "laboratorio05-tarea" */;
+			buildPhases = (
+				9182FCCD254F76C600EFA757 /* Sources */,
+				9182FCCE254F76C600EFA757 /* Frameworks */,
+				9182FCCF254F76C600EFA757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "laboratorio05-tarea";
+			productName = "laboratorio05-tarea";
+			productReference = 9182FCD1254F76C600EFA757 /* laboratorio05-tarea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9182FCC9254F76C600EFA757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					9182FCD0254F76C600EFA757 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 9182FCCC254F76C600EFA757 /* Build configuration list for PBXProject "laboratorio05-tarea" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9182FCC8254F76C600EFA757;
+			productRefGroup = 9182FCD2254F76C600EFA757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9182FCD0254F76C600EFA757 /* laboratorio05-tarea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9182FCCF254F76C600EFA757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9182FCE4254F76C900EFA757 /* LaunchScreen.storyboard in Resources */,
+				9182FCE1254F76C900EFA757 /* Assets.xcassets in Resources */,
+				9182FCDC254F76C700EFA757 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9182FCCD254F76C600EFA757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9182FCD9254F76C700EFA757 /* ViewController.swift in Sources */,
+				9182FCD5254F76C700EFA757 /* AppDelegate.swift in Sources */,
+				9182FCDF254F76C700EFA757 /* laboratorio05_tarea.xcdatamodeld in Sources */,
+				9182FCD7254F76C700EFA757 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9182FCDA254F76C700EFA757 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9182FCDB254F76C700EFA757 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9182FCE2254F76C900EFA757 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9182FCE3254F76C900EFA757 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9182FCE6254F76C900EFA757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9182FCE7254F76C900EFA757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9182FCE9254F76C900EFA757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H24B9FWQM;
+				INFOPLIST_FILE = "laboratorio05-tarea/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "marcocsx.laboratorio05-tarea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9182FCEA254F76C900EFA757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H24B9FWQM;
+				INFOPLIST_FILE = "laboratorio05-tarea/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "marcocsx.laboratorio05-tarea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9182FCCC254F76C600EFA757 /* Build configuration list for PBXProject "laboratorio05-tarea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9182FCE6254F76C900EFA757 /* Debug */,
+				9182FCE7254F76C900EFA757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9182FCE8254F76C900EFA757 /* Build configuration list for PBXNativeTarget "laboratorio05-tarea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9182FCE9254F76C900EFA757 /* Debug */,
+				9182FCEA254F76C900EFA757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9182FCDD254F76C700EFA757 /* laboratorio05_tarea.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9182FCDE254F76C700EFA757 /* laboratorio05_tarea.xcdatamodel */,
+			);
+			currentVersion = 9182FCDE254F76C700EFA757 /* laboratorio05_tarea.xcdatamodel */;
+			path = laboratorio05_tarea.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9182FCC9254F76C600EFA757 /* Project object */;
+}
